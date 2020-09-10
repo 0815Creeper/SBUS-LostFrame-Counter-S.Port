@@ -9,7 +9,6 @@ for wiring see circuit.png
 
 
 
-SBUS LostFrame Zähler, der seine Informationen über den FrSky S.Port als Telemetrie zurück sendet. basiert auf dem OpenXsensor
 
 # Eine ausführliche Schritt-für-Schritt Anleitung zur Herstellung des SBUS-LF-Zählers:
 Die empfohlene Hardware:
