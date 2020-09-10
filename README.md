@@ -1,5 +1,4 @@
 # SBUS-LostFrame-Counter-S.Port
-# SBUS-LostFrame-Zähler-S.Port
 (Deutsch unten, German below)
 
 SBUS LostFrame Counter, that sends its information via FrSky S.Port Telemetry. based on OpenXsensor
