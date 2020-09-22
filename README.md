@@ -5,7 +5,10 @@ SBUS LostFrame Counter, that sends its information via FrSky S.Port Telemetry. b
 
 for wiring see circuit.png
 
-
+When running Sensordiscovery 2 Fuel sensors will be found. Rename them as follows: 
+The one with subID 0601 as "LF" (accumulated lost SBUS-frames since power-on). Set unit to none "-". 
+The one with subID 0600 as "LF3s" (0-100%: percentege of lost SBUS-Frames within the last 3 seconds. (Under good reception conditions typically between 1 and 10%)
+Hint: when the SBUS Frames are lost during a loss of signal, there obviosly is no telemetry-link either. Therefore monitor the accumulated LF: If it increases abruptly (>100 frames), there was something very wrong. (1 frame equals 9ms, therefore 111 frames equal 1 second)
 
 
 
@@ -61,5 +64,5 @@ abgeschlossen" oder in orange "Problem..." falls ersteres, Glückwunsch, falls l
 SPort und SBUS kabel an den Empfänger und Sensordiscovery am Sender ausführen. 
 2 Fuel Sensoren werden gefunden. Ich schlage vor sie umzubennen. 
 Jender, der mit SubID 0601 zu "LF" (hier kommen die Gesamtzahl der Lost-SBUS-Frames seit Einschalten an). Hier die Einheit auf none "-" ändern. 
-Den  mit SubID 0600 zu LF3s (hier kommen in 0-100% die in den letzten 3s verlorenen Frames an)
+Den  mit SubID 0600 zu LF3s (hier kommen in 0-100% die in den letzten 3s verlorenen Frames an. (Bei guter Antennenverlegung ohne Störquellen typisch sind hier Werte zwischen 1 und 10% je nach Entfernung)
 Hinweis: sollten bei einem Signalverlust SBUS Frames verloren gehen, kommt natürlich auch keine Telemetrie beim Sender mehr an beobachtet also unbedingt auch den gesamt LF-Wert. (Insb. bei Log-Auswertungen) Nimmt dieser schlagartig zu (>100 Frames) ist was sehr im Argen. (1 Frame entspricht 9ms, damit entsprechen 111 Frames einer Sekunde)
