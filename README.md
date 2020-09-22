@@ -1,6 +1,8 @@
 # SBUS-LostFrame-Counter-S.Port
 (Deutsch unten, German below)
 
+This Code is based on the openXsensor project. See https://github.com/openXsensor/openXsensor
+
 SBUS LostFrame Counter, that sends its information via FrSky S.Port Telemetry. based on OpenXsensor
 
 for wiring see circuit.png
